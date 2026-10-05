@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prathap Vadla | Frontend Developer</title>
+<meta name="description" content="Portfolio of Prathap Vadla, a frontend developer building clean, responsive web experiences with HTML, CSS and JavaScript.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+/* <!-- ===== Header / Nav ===== --> */
+
+
+<header id="header">
+    <div class="header-inner">
+        <a href="#home" class="logo">
+            <span class="logo-circle">PV</span>
+            <span class="logo-text">prathap<span class="dim">.dev</span></span>
+        </a>
+
+        <nav id="nav">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <a href="prathap res.pdf" download class="btn btn-ghost header-cta">Resume</a>
+
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false"></button>
+    </div>
+</header>
+<section id="home" class="section home">
+    <div class="home-inner">
+        <div class="image reveal">
+            <div class="image-ring">
+                <img src="WhatsApp Image 2026-10-05 at 8.46.42 PM.jpeg" alt="Photo of Prathap Vadla">
+            </div>
+        </div>
+
+        <div class="content reveal">
+            <p class="eyebrow">&lt;hello world/&gt;</p>
+            <h1>Hi, I'm <span class="accent">Prathap</span></h1>
+            <h2 class="type-line"><span id="typedRole">Frontend Developer</span><span class="cursor">|</span></h2>
+
+            <p class="lead">
+                I build clean, responsive interfaces with HTML, CSS and JavaScript.
+                I care about the small details — spacing, motion, load time — the
+                things people feel before they notice them.
+            </p>
+
+            <div class="home-actions">
+                <a href="#projects" class="btn btn-primary">View my work</a>
+                <a href="#contact" class="btn btn-ghost">Get in touch</a>
+            </div>
+
+            <div class="social">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About"><span></span></a>
+</section>
+
+<!-- ===== About ===== -->
+<section id="about" class="section about">
+    <p class="eyebrow reveal">&lt;about me&gt;</p>
+    <h2 class="section-title reveal">A bit about how I work</h2>
+
+    <div class="about-grid">
+        <div class="about-text reveal">
+            <p>
+                I'm a frontend developer who enjoys turning ideas into interfaces
+                people actually want to use. I started out tinkering with HTML and CSS
+                out of curiosity, and it turned into a habit of picking things apart
+                to see how they're built.
+            </p>
+            <p>
+                These days I spend most of my time with HTML, CSS and JavaScript,
+                and I'm always adding new tools to that list. I like projects that
+                force me to think about performance and accessibility, not just how
+                a page looks on my own screen.
+            </p>
+            <p>
+                Outside of code, I'm usually reading about design patterns, breaking
+                my own portfolio to rebuild it better, or exploring new frameworks
+                just to see what problems they solve.
+      </p>
+
+    </div>
+        </div>
+
+        <div class="about-stats reveal">
+            <div class="stat-card">
+                <span class="stat-num" data-target="15">0</span>
+                <span class="stat-label">Projects built</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-num" data-target="3">0</span>
+                <span class="stat-label">Years learning &amp; building</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-num" data-target="100">0</span>
+                <span class="stat-label">% self-taught curiosity</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Skills ===== -->
+<section id="skills" class="section skills">
+    <p class="eyebrow reveal">&lt;skills&gt;</p>
+    <h2 class="section-title reveal">Tools I reach for</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card reveal">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>Semantic, accessible markup as the foundation of every build.</p>
+        </div>
+        <div class="skill-card reveal">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, animations, and responsive layouts from scratch.</p>
+        </div>
+        <div class="skill-card reveal">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>DOM manipulation, events, and interactive UI without a framework.</p>
+        </div>
+        <div class="skill-card reveal">
+            <i class="fa-brands fa-react"></i>
+            <h3>React</h3>
+            <p>Component-based UIs, hooks, and state management for larger apps.</p>
+        </div>
+        <div class="skill-card reveal">
+            <i class="fa-brands fa-git-alt"></i>
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control, branching, and collaborating on real codebases.</p>
+        </div>
+        <div class="skill-card reveal">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h3>Responsive Design</h3>
+            <p>Mobile-first layouts that hold up across devices and browsers.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Projects ===== -->
+<section id="projects" class="section projects">
+    <p class="eyebrow reveal">&lt;projects&gt;</p>
+    <h2 class="section-title reveal">Things I've built</h2>
+
+    <div class="project-grid">
+
+        <article class="project-card reveal">
+            <div class="project-img">
+                <img src="project-weather.png" alt="Screenshot of the Weather Now app">
+            </div>
+            <div class="project-body">
+                <h3>Weather Now</h3>
+                <p>A weather lookup app that pulls live forecasts from a public API and shows them in a simple, readable layout.</p>
+                <div class="tags">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card reveal">
+            <div class="project-img">
+                <img src="project-tasks.png" alt="Screenshot of the Task Board app">
+            </div>
+            <div class="project-body">
+                <h3>Task Board</h3>
+                <p>A drag-and-drop task manager with local storage, built to practice DOM events and state without a framework.</p>
+                <div class="tags">
+                    <span>JavaScript</span><span>CSS Grid</span><span>LocalStorage</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card reveal">
+            <div class="project-img">
+                <img src="project-recipe.png" alt="Screenshot of the Recipe Finder app">
+            </div>
+            <div class="project-body">
+                <h3>Recipe Finder</h3>
+                <p>Search and filter recipes by ingredient, with a responsive card layout and smooth loading states.</p>
+                <div class="tags">
+                    <span>React</span><span>API</span><span>Responsive</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card reveal">
+            <div class="project-img">
+                <img src="project-portfolio.png" alt="Screenshot of an earlier portfolio version">
+            </div>
+            <div class="project-body">
+                <h3>Portfolio v1</h3>
+                <p>My first attempt at a personal site — kept here as a reminder of how far the second version has come.</p>
+                <div class="tags">
+                    <span>HTML</span><span>CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+                    <a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo</a>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- ===== Experience & Education ===== -->
+<section id="experience" class="section experience">
+    <p class="eyebrow reveal">&lt;experience &amp; education&gt;</p>
+    <h2 class="section-title reveal">Where I've been</h2>
+
+    <div class="timeline">
+        <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <span class="timeline-date">2025 — Present</span>
+            <h3>Freelance Frontend Developer</h3>
+            <p>Building responsive websites and landing pages for small clients, from first wireframe to deployed site.</p>
+        </div>
+        <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <span class="timeline-date">2024</span>
+            <h3>Frontend Development — Self Directed</h3>
+            <p>Spent the year deep in HTML, CSS, JavaScript and React, building small projects to learn by doing.</p>
+        </div>
+        <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <span class="timeline-date">2021 — 2024</span>
+            <h3>B.Tech, Computer Science</h3>
+            <p>Studied core computer science fundamentals alongside web development on the side.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section id="contact" class="section contact">
+    <p class="eyebrow reveal">&lt;contact&gt;</p>
+    <h2 class="section-title reveal">Let's work together</h2>
+    <p class="contact-lead reveal">Have a project in mind or just want to say hi? Send me a message below.</p>
+
+    <form id="contactForm" class="contact-form reveal" novalidate>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <span class="error-msg" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com">
+                <span class="error-msg" id="emailError"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            <span class="error-msg" id="subjectError"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me a bit more..."></textarea>
+            <span class="error-msg" id="messageError"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-status" id="formStatus"></p>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; <span id="year"></span> Prathap Vadla. Built with HTML, CSS &amp; JavaScript.</p>
+    <div class="social footer-social">
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            background: BLACK;
+            color:white;
+        }
+
+        header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 80px;
+        }
+        .logo {
+             display:flex; 
+             align-items:center; 
+             gap:10px; 
+             flex-shrink:0; 
+            }
+    .logo-circle { 
+        width: 70px; 
+        height:60px; 
+        border:2px solid rgb(239, 239, 220); 
+        border-color: #00e5ff;
+        border-radius: 20px;
+        display:flex; 
+        justify-content:center; 
+        align-items:center; 
+        color: cyan; 
+        font-size:16px; 
+        font-weight:bold; 
+        font-family:'Cinzel',serif; 
+        cursor: pointer;
+    }
+        nav a{
+            color: rgb(234, 234, 215);
+            text-decoration:none;
+            margin-left:25px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: cyan;
+        }
+
+        .home{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            margin-top:80px;
+            padding:20px 80px;
+        }
+
+        .image img{
+            width:300px;
+            border-radius:50%;
+            border:5px solid #00e5ff;
+            box-shadow:0 0 25px #00e5ff;
+        }
+        .content{
+            width:500px;
+        }
+
+        .content h1{
+            font-size:45px;
+        }
+
+        .content h2{
+            margin-top:15px;
+            color:cyan;
+        }
+
+        .content p{
+            margin-top:20px;
+            line-height:28px;
+        }
+
+        .social{
+            margin-top:30px;
+        }
+
+        .social a{
+            display:inline-block;
+            width:45px;
+            height:45px;
+            line-height:45px;
+            text-align:center;
+            border:2px solid cyan;
+            color:cyan;
+            border-radius:50%;
+            margin-right:10px;
+            font-size:20px;
+            transition:0.4s;
+        }
+
+        .social a:hover{
+            background:cyan;
+            color:black;
+        }
+         .btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:cyan;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+    </style>
+
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        <div class="logo-circle">PV</div>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Education</a>
+        <a href="#">Experience</a>
+    </nav>
+
+</header>
+
+<section class="home">
+
+    <div class="image">
+        <img src="nani.png" alt="My Photo">
+    </div>
+    <div class="content">
+        <h1>Hi, I'm <span style="color:cyan;">PRATHAP</span></h1>
+
+        <h2>Frontend Developer</h2>
+
+        <p>
+            I am interested in web development. I like creating simple and
+            responsive websites using HTML, CSS and JavaScript. I am
+            continuously learning new technologies to improve my skills.
+        </p>
+
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="Vadla_Prathap_Resume_HD.pdf" download class="btn">
+        Download Resume
+    </a>
+
+    </div>
+
+</section>
+</body>
+</html>
